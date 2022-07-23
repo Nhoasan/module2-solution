@@ -2,8 +2,12 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Responsive Layout</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Our Menu</title>
 <style>
+.center {
+text-align: center;
+}
 
 /********** Base styles **********/
 * {
@@ -12,7 +16,13 @@
 
 p {
   border: 1px solid black;
-  margin-bottom: 15px;
+  background-color: #808080;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;
 }
 #p1 {
   background-color: #FDCAE1;
@@ -131,3 +141,17 @@ p {
 		width: 100%;
 	}
 }
+
+</style>
+</head>
+<body>
+<h1>Our Menu</h1>
+
+<div class="row">
+	<div class="col-lg-3 col-md-6"><p>Chicken</p></div>
+	<div class="col-lg-3 col-md-6"><p>Beef</p></div>
+	<div class="col-lg-3 col-md-6"><p>Sushi</p></div>
+</div>
+
+</body>
+</html>
